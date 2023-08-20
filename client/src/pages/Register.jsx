@@ -57,7 +57,7 @@ const Register = () => {
                 variant="outlined"
                 id="email"
                 type="password"
-                fullWidth
+               
                 required
                 error={error.error}
                 onChange={(e) => setEmail(e.target.value)}
