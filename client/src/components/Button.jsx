@@ -1,8 +1,12 @@
 import PropTypes from 'prop-types';
 import { motion } from "framer-motion";
-const Button = ({type, className, textButton, onClick}) => {
+
+
+
+
+const Button = ({type,  textButton, onClick}) => {
 	return (
-		<motion.button whileHover={{ scale: 0.9 }} type={type}className={className} onClick={onClick}>
+		<motion.button whileHover={{ scale: 0.9 }} variant="contained" type={type}className="button1" onClick={onClick}>
 		
 			{textButton}
 		</motion.button>

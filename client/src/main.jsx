@@ -8,9 +8,14 @@ import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import './index.css'
 import { BrowserRouter } from 'react-router-dom';
-
+// import { Provider } from 'react-redux';
+// import store from './redux/store/store';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <  BrowserRouter>
-    <App />
+    {/* <Provider store={store}> */}
+
+<App />
+
+{/* </Provider> */}
   </ BrowserRouter>,
 )

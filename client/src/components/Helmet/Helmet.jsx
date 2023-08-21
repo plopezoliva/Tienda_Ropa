@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 const Helmet = ({title, children }) => {
-	document. title = '¡FITNESS! ' + title
+	document. title = '¡Genderless! ' + title
 	return (
 		<div className="w-100">
 			{children}

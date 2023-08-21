@@ -1,16 +1,16 @@
 import PropTypes from 'prop-types';
-const Title = ({titleLabel, h1, htmlFor}) => {
+const Title = ({p, h1, }) => {
 	return (
 		<>
-			<label htmlFor={htmlFor} >{titleLabel}</label>
+			<p  >{p}</p>
 			<h1>{h1}</h1>
 		</>
 	)
 };
 Title.propTypes = {
-	titleLabel: PropTypes.node,
+	p: PropTypes.node,
 	h1: PropTypes.node,
-	htmlFor: PropTypes.node,
+	// htmlFor: PropTypes.node,
  
   };
 

@@ -3,8 +3,10 @@
 // import Footer from "../components/Footer";
 import NavBar from "../components/Navbar";
 import Routes from "../routes/Routers";
+
 import InboxIcon from "@mui/icons-material/Inbox";
 import DraftsIcon from "@mui/icons-material/Drafts";
+import Footer from "../components/Footer";
 const navArrayLinks = [
   {
     title: "Home",
@@ -29,7 +31,7 @@ const Layout = () => {
       <div>
         <Routes />
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };
