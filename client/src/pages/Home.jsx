@@ -1,11 +1,13 @@
 
+import ListCard from "../components/ListCard";
+import Helmet from "../components/Helmet/Helmet";
 
 const Home = () => {
 	return (
-		<div >
-			<h3>home</h3>
-			
-		</div>
+		<Helmet title={"HOME"} >
+
+			<ListCard/>
+		</Helmet>
 	)
 };
 

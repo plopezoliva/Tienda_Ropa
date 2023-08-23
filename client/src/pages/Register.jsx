@@ -41,8 +41,8 @@ const Register = () => {
         <Container maxWidth="md">
           <Box
             sx={{
-              bgcolor: "#0E1428",
-
+              background: '#ff8c0012',
+              border:"2px solid darkorange",
               padding: "13px",
               textAlign: "center",
               color: "white",

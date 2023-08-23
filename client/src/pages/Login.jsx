@@ -12,8 +12,8 @@ const Login = () => {
         <Container maxWidth="md">
           <Box
             sx={{
-              bgcolor: "#0E1428",
-
+              background: '#ff8c0012',
+              border: "2px solid darkorange",
               padding: "13px",
               textAlign: "center",
               color: "white",
@@ -63,13 +63,14 @@ const Login = () => {
               >
                 <Button type="submit" textButton="Ingresar  " />
               </Box>
-              <NavLink to="/register"><Button
-                type="submit"
-                textButton="Registrate"
-                component={NavLink}
-                to="/register"
-              /></NavLink>
-              
+              <NavLink to="/register">
+                <Button
+                  type="submit"
+                  textButton="Registrate"
+                  component={NavLink}
+                  to="/register"
+                />
+              </NavLink>
             </Box>
             <Title p=" ¿Olvidaste tu contraseña?" />
           </Box>
